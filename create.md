@@ -45,7 +45,7 @@ These add-ons will create the respective IAM policies for us automatically withi
 # Create Public Node Group   
 eksctl create nodegroup --cluster=demo-cluster1 \
                        --region=us-east-1 \
-                       --name=mg-demo \
+                       --name=mg-demo1 \
                        --node-type=t3.medium \
                        --nodes=2 \
                        --nodes-min=2 \
