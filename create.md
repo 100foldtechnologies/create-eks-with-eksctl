@@ -89,7 +89,7 @@ eksctl get nodegroup --cluster=demo-cluster
 
 # Delete Node Group
 eksctl delete nodegroup --cluster=<clusterName> --name=<nodegroupName>
-eksctl delete nodegroup --cluster=amcdemo --name=mg-demo
+eksctl delete nodegroup --cluster=demo-cluster --name=mg-demo
 ```
 
 ## Step 07: Delete Cluster
